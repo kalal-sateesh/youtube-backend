@@ -1,5 +1,5 @@
 import userModel from "../models/user.model.js";
-import bcrypt from "bcrypt";
+import bcrypt from "bcryptjs";
 import jwt from "jsonwebtoken";
 import { JWT_TOKEN } from "../constants.js";
 import { v4 as uuidv4 } from "uuid";
